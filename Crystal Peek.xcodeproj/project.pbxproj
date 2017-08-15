@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEFFAA3B1F42E0DC00C675AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFFAA3A1F42E0DC00C675AF /* AppDelegate.swift */; };
+		EEFFAA3D1F42E0DC00C675AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFFAA3C1F42E0DC00C675AF /* ViewController.swift */; };
+		EEFFAA401F42E0DC00C675AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFFAA3E1F42E0DC00C675AF /* Main.storyboard */; };
+		EEFFAA421F42E0DC00C675AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFFAA411F42E0DC00C675AF /* Assets.xcassets */; };
+		EEFFAA451F42E0DC00C675AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFFAA431F42E0DC00C675AF /* LaunchScreen.storyboard */; };
+		EEFFAA501F42E0DC00C675AF /* Crystal_PeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFFAA4F1F42E0DC00C675AF /* Crystal_PeekTests.swift */; };
+		EEFFAA5B1F42E0DC00C675AF /* Crystal_PeekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFFAA5A1F42E0DC00C675AF /* Crystal_PeekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFFAA4C1F42E0DC00C675AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFFAA2F1F42E0DB00C675AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFFAA361F42E0DC00C675AF;
+			remoteInfo = "Crystal Peek";
+		};
+		EEFFAA571F42E0DC00C675AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFFAA2F1F42E0DB00C675AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFFAA361F42E0DC00C675AF;
+			remoteInfo = "Crystal Peek";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEFFAA371F42E0DC00C675AF /* Crystal Peek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crystal Peek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFAA3A1F42E0DC00C675AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEFFAA3C1F42E0DC00C675AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEFFAA3F1F42E0DC00C675AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEFFAA411F42E0DC00C675AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFFAA441F42E0DC00C675AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEFFAA461F42E0DC00C675AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFFAA4B1F42E0DC00C675AF /* Crystal PeekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal PeekTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFAA4F1F42E0DC00C675AF /* Crystal_PeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal_PeekTests.swift; sourceTree = "<group>"; };
+		EEFFAA511F42E0DC00C675AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFFAA561F42E0DC00C675AF /* Crystal PeekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crystal PeekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFFAA5A1F42E0DC00C675AF /* Crystal_PeekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crystal_PeekUITests.swift; sourceTree = "<group>"; };
+		EEFFAA5C1F42E0DC00C675AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFFAA341F42E0DC00C675AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA481F42E0DC00C675AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA531F42E0DC00C675AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFFAA2E1F42E0DB00C675AF = {
+			isa = PBXGroup;
+			children = (
+				EEFFAA391F42E0DC00C675AF /* Crystal Peek */,
+				EEFFAA4E1F42E0DC00C675AF /* Crystal PeekTests */,
+				EEFFAA591F42E0DC00C675AF /* Crystal PeekUITests */,
+				EEFFAA381F42E0DC00C675AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFFAA381F42E0DC00C675AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFAA371F42E0DC00C675AF /* Crystal Peek.app */,
+				EEFFAA4B1F42E0DC00C675AF /* Crystal PeekTests.xctest */,
+				EEFFAA561F42E0DC00C675AF /* Crystal PeekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFFAA391F42E0DC00C675AF /* Crystal Peek */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFAA3A1F42E0DC00C675AF /* AppDelegate.swift */,
+				EEFFAA3C1F42E0DC00C675AF /* ViewController.swift */,
+				EEFFAA3E1F42E0DC00C675AF /* Main.storyboard */,
+				EEFFAA411F42E0DC00C675AF /* Assets.xcassets */,
+				EEFFAA431F42E0DC00C675AF /* LaunchScreen.storyboard */,
+				EEFFAA461F42E0DC00C675AF /* Info.plist */,
+			);
+			path = "Crystal Peek";
+			sourceTree = "<group>";
+		};
+		EEFFAA4E1F42E0DC00C675AF /* Crystal PeekTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFAA4F1F42E0DC00C675AF /* Crystal_PeekTests.swift */,
+				EEFFAA511F42E0DC00C675AF /* Info.plist */,
+			);
+			path = "Crystal PeekTests";
+			sourceTree = "<group>";
+		};
+		EEFFAA591F42E0DC00C675AF /* Crystal PeekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFFAA5A1F42E0DC00C675AF /* Crystal_PeekUITests.swift */,
+				EEFFAA5C1F42E0DC00C675AF /* Info.plist */,
+			);
+			path = "Crystal PeekUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFFAA361F42E0DC00C675AF /* Crystal Peek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFAA5F1F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal Peek" */;
+			buildPhases = (
+				EEFFAA331F42E0DC00C675AF /* Sources */,
+				EEFFAA341F42E0DC00C675AF /* Frameworks */,
+				EEFFAA351F42E0DC00C675AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crystal Peek";
+			productName = "Crystal Peek";
+			productReference = EEFFAA371F42E0DC00C675AF /* Crystal Peek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFFAA4A1F42E0DC00C675AF /* Crystal PeekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFAA621F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal PeekTests" */;
+			buildPhases = (
+				EEFFAA471F42E0DC00C675AF /* Sources */,
+				EEFFAA481F42E0DC00C675AF /* Frameworks */,
+				EEFFAA491F42E0DC00C675AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFFAA4D1F42E0DC00C675AF /* PBXTargetDependency */,
+			);
+			name = "Crystal PeekTests";
+			productName = "Crystal PeekTests";
+			productReference = EEFFAA4B1F42E0DC00C675AF /* Crystal PeekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEFFAA551F42E0DC00C675AF /* Crystal PeekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFFAA651F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal PeekUITests" */;
+			buildPhases = (
+				EEFFAA521F42E0DC00C675AF /* Sources */,
+				EEFFAA531F42E0DC00C675AF /* Frameworks */,
+				EEFFAA541F42E0DC00C675AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFFAA581F42E0DC00C675AF /* PBXTargetDependency */,
+			);
+			name = "Crystal PeekUITests";
+			productName = "Crystal PeekUITests";
+			productReference = EEFFAA561F42E0DC00C675AF /* Crystal PeekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFFAA2F1F42E0DB00C675AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sebastian Ranzinger";
+				TargetAttributes = {
+					EEFFAA361F42E0DC00C675AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EEFFAA4A1F42E0DC00C675AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEFFAA361F42E0DC00C675AF;
+					};
+					EEFFAA551F42E0DC00C675AF = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEFFAA361F42E0DC00C675AF;
+					};
+				};
+			};
+			buildConfigurationList = EEFFAA321F42E0DB00C675AF /* Build configuration list for PBXProject "Crystal Peek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFFAA2E1F42E0DB00C675AF;
+			productRefGroup = EEFFAA381F42E0DC00C675AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFFAA361F42E0DC00C675AF /* Crystal Peek */,
+				EEFFAA4A1F42E0DC00C675AF /* Crystal PeekTests */,
+				EEFFAA551F42E0DC00C675AF /* Crystal PeekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFFAA351F42E0DC00C675AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFAA451F42E0DC00C675AF /* LaunchScreen.storyboard in Resources */,
+				EEFFAA421F42E0DC00C675AF /* Assets.xcassets in Resources */,
+				EEFFAA401F42E0DC00C675AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA491F42E0DC00C675AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA541F42E0DC00C675AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFFAA331F42E0DC00C675AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFAA3D1F42E0DC00C675AF /* ViewController.swift in Sources */,
+				EEFFAA3B1F42E0DC00C675AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA471F42E0DC00C675AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFAA501F42E0DC00C675AF /* Crystal_PeekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFFAA521F42E0DC00C675AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFFAA5B1F42E0DC00C675AF /* Crystal_PeekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFFAA4D1F42E0DC00C675AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFFAA361F42E0DC00C675AF /* Crystal Peek */;
+			targetProxy = EEFFAA4C1F42E0DC00C675AF /* PBXContainerItemProxy */;
+		};
+		EEFFAA581F42E0DC00C675AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFFAA361F42E0DC00C675AF /* Crystal Peek */;
+			targetProxy = EEFFAA571F42E0DC00C675AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEFFAA3E1F42E0DC00C675AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFFAA3F1F42E0DC00C675AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEFFAA431F42E0DC00C675AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFFAA441F42E0DC00C675AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEFFAA5D1F42E0DC00C675AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEFFAA5E1F42E0DC00C675AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFFAA601F42E0DC00C675AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Peek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-Peek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEFFAA611F42E0DC00C675AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Crystal Peek/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-Peek";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EEFFAA631F42E0DC00C675AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crystal PeekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-PeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Peek.app/Crystal Peek";
+			};
+			name = Debug;
+		};
+		EEFFAA641F42E0DC00C675AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Crystal PeekTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-PeekTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Crystal Peek.app/Crystal Peek";
+			};
+			name = Release;
+		};
+		EEFFAA661F42E0DC00C675AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crystal PeekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-PeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crystal Peek";
+			};
+			name = Debug;
+		};
+		EEFFAA671F42E0DC00C675AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Crystal PeekUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "siemens.Crystal-PeekUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Crystal Peek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFFAA321F42E0DB00C675AF /* Build configuration list for PBXProject "Crystal Peek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFAA5D1F42E0DC00C675AF /* Debug */,
+				EEFFAA5E1F42E0DC00C675AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFFAA5F1F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal Peek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFAA601F42E0DC00C675AF /* Debug */,
+				EEFFAA611F42E0DC00C675AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFFAA621F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal PeekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFAA631F42E0DC00C675AF /* Debug */,
+				EEFFAA641F42E0DC00C675AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEFFAA651F42E0DC00C675AF /* Build configuration list for PBXNativeTarget "Crystal PeekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFFAA661F42E0DC00C675AF /* Debug */,
+				EEFFAA671F42E0DC00C675AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFFAA2F1F42E0DB00C675AF /* Project object */;
+}
